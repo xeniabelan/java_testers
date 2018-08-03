@@ -23,6 +23,6 @@ public class Point {
 
 
     public double distanceMethod(Point p2) {
-        return Math.sqrt((p2.getX() - x) ^ 2 + (p2.getY() - y) ^ 2);
+        return Math.sqrt(Math.pow(p2.getX() - x, 2) + Math.pow(p2.getY() - y, 2));
     }
 }
